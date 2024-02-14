@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.landing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -100px;
+  margin-top: -30px;
+  text-align: center;
+}
+#describe {
+  padding: 3%;
+}
+
+.navber {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.navber ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navber ul li a {
+  text-decoration: none;
+  color: #000;
+  text-transform: lowercase;
+}
+
+.navber ul li button {
+  background-color: white;
+  color: black;
+  border: 2px solid #cccbcb;
+  padding: 0.3cm;
+  border-radius: 0.8cap;
+}

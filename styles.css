@@ -8,7 +8,6 @@
   top: 50%;
   left: 50%;
   height: 60px;
-  line-height: 60px;
   margin-left: -100px;
   margin-top: -30px;
   text-align: center;
@@ -24,6 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 }
 
 .logo {
@@ -49,4 +49,25 @@
   border: 2px solid #cccbcb;
   padding: 0.3cm;
   border-radius: 0.8cap;
+  cursor: pointer;
+}
+.container2 {
+  text-align: center;
+  margin-top: 45%;
+  padding: 5%;
+  background-color: #b1afaf;
+}
+.landing2 {
+  display: flex;
+  justify-content: space-between;
+}
+.pic {
+  border: #000;
+  width: 30%;
+  /* padding-bottom: 2%; */
+}
+#des {
+  margin-top: 17%;
+  margin-left: 2%;
+  margin-right: 2%;
 }

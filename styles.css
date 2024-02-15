@@ -3,6 +3,9 @@
   padding: 0;
   font-family: sans-serif;
 }
+.main {
+  display: grid;
+}
 .landing {
   position: absolute;
   top: 50%;
@@ -17,13 +20,16 @@
 }
 
 .navber {
+  position: fixed;
   width: 85%;
+  height: 5%;
   margin: auto;
   padding: 35px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 100;
+  background-color: white;
+  z-index: 1000;
 }
 
 .logo {
@@ -53,7 +59,7 @@
 }
 .container2 {
   text-align: center;
-  margin-top: 45%;
+  margin-top: 51%;
   padding: 5%;
   background-color: #b1afaf;
 }
@@ -64,7 +70,6 @@
 .pic {
   border: #000;
   width: 30%;
-  /* padding-bottom: 2%; */
 }
 #des {
   margin-top: 17%;

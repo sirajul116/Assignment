@@ -21,10 +21,14 @@
 
 .navber {
   position: fixed;
-  width: 85%;
-  height: 5%;
+  width: 1440px;
+  height: 90px;
+  left: -1px;
   margin: auto;
-  padding: 35px 0;
+  padding-left: 160px;
+  padding-top: 25px;
+  padding-right: 160px;
+  padding-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,6 +70,7 @@
 .landing2 {
   display: flex;
   justify-content: space-between;
+  margin-top: 3%;
 }
 .pic {
   border: #000;
@@ -75,4 +80,17 @@
   margin-top: 17%;
   margin-left: 2%;
   margin-right: 2%;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.title::before,
+.title::after {
+  content: '';
+  height: 2px;
+  background-color: #000;
+  display: block;
 }

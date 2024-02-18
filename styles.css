@@ -91,7 +91,7 @@ div button {
   width: 30%;
 }
 #des {
-  margin-top: 17%;
+  margin-top: 30%;
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -120,7 +120,7 @@ div button {
 }
 
 .pop-content {
-  height: 250px;
+  height: 300px;
   width: 500px;
   background-color: #ffffff;
   padding: 20px;
@@ -147,4 +147,11 @@ input {
 }
 .info {
   padding: 10px;
+}
+#cls {
+  position: absolute;
+  margin-left: 200px;
+}
+.arrow {
+  cursor: pointer;
 }

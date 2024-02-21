@@ -121,11 +121,12 @@ div button {
 .popup {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   display: none;
   justify-content: center;
   align-items: center;
+  z-index: 500;
 }
 
 .pop-content {
@@ -136,6 +137,13 @@ div button {
   border-radius: 5px;
   position: relative;
   box-shadow: 5px 5px 20px -5px rgb(0, 0, 0, 0.75);
+}
+.dm {
+  height: 40%;
+}
+#cls {
+  position: absolute;
+  margin-bottom: -18%;
 }
 input {
   height: 50px;
@@ -157,10 +165,37 @@ input {
 .info {
   padding: 10px;
 }
-#cls {
-  position: absolute;
-  margin-left: 200px;
-}
+
 .arrow {
   cursor: pointer;
+}
+
+.container3 {
+  text-align: center;
+  padding: 5%;
+  background-color: #ffffff;
+}
+.landing3 {
+  display: flex;
+  margin-top: 3%;
+}
+.pics {
+  display: grid;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.cntct {
+  display: grid;
+  text-align: left;
+  padding-left: 2%;
+}
+.lg {
+  margin-left: 70%;
+}
+
+#logg {
+  margin-left: 35%;
 }

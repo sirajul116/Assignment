@@ -6,6 +6,11 @@
 .main {
   display: grid;
 }
+.container {
+  display: grid;
+  width: 100%;
+  height: 1000px;
+}
 .landing {
   position: absolute;
   top: 50%;
@@ -21,14 +26,10 @@
 
 .navber {
   position: fixed;
-  width: 1440px;
+  width: 100%;
   height: 90px;
   left: -1px;
   margin: auto;
-  padding-left: 160px;
-  padding-top: 25px;
-  padding-right: 160px;
-  padding-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,6 +46,7 @@
   list-style: none;
   display: inline-block;
   margin: 0 15px;
+  padding: 7px;
 }
 
 .navber ul li a {
@@ -71,13 +73,20 @@ div button {
   box-shadow: 5px 5px 20px -5px rgb(0, 0, 0, 0.75);
   cursor: pointer;
 }
+
 .btn:hover {
-  background-color: rgb(163, 163, 172);
+  background-color: rgb(200, 200, 206);
   color: #ffff;
+}
+
+.navv:hover {
+  background-color: rgb(210, 210, 212);
+  color: #ffff;
+  height: 15px;
+  border-radius: 15%;
 }
 .container2 {
   text-align: center;
-  margin-top: 51%;
   padding: 5%;
   background-color: #b1afaf;
 }
@@ -91,7 +100,7 @@ div button {
   width: 30%;
 }
 #des {
-  margin-top: 30%;
+  margin-top: 10%;
   margin-left: 2%;
   margin-right: 2%;
 }

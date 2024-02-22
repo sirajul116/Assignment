@@ -133,8 +133,8 @@ div button {
 }
 
 .pop-content {
-  height: 400pxpx;
-  width: 50%;
+  height: 420pxpx;
+  width: 30%;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
@@ -160,7 +160,7 @@ form textarea {
 #cls {
   /* margin-bottom: -16%; */
   margin-top: 2%;
-  margin-left: 40%;
+  margin-left: 38%;
 }
 input {
   height: 50px;

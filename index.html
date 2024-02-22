@@ -55,12 +55,18 @@
           <div class="cntct">
             <p>
               <b>
-                <a href="https://github.com/sirajul116" id="lgp">
+                <a href="https://github.com/sirajul116" class="lgp">
                   sirajul116
                 </a>
               </b>
             </p>
-            <p><b>hridoyhrix116@gmail.com</b></p>
+            <p>
+              <b>
+                <a href="mailto:hridoyhrix116@gmail.com" class="lgp">
+                  hridoyhrix116@gmail.com
+                </a>
+              </b>
+            </p>
             <p><b>01796144906</b></p>
           </div>
           <div class="lg">
@@ -72,13 +78,23 @@
     </div>
     <div class="popup">
       <div class="pop-content">
-        <img src="cross.png" alt="cross" class="close" />
-        <img src="logo.png" alt="logo" class="logo" id="logg" />
-        <h3>Direct Message</h3>
-        <input type="text" placeholder=" Direct Message" class="dm" />
-        <button type="button">send</button>
+        <form>
+          <img src="cross.png" alt="cross" class="close" />
+          <img src="logo.png" alt="logo" class="logo" id="logg" />
+          <p><b>Your Name:</b></p>
+          <input type="text" name="Name" placeholder=" Your Name" required />
+          <p><b>Your Mail:</b></p>
+          <input type="email" name="Email" placeholder=" Your Mail" required />
+          <p><b>Type Message:</b></p>
+          <textarea
+            name="Message"
+            rows="6"
+            placeholder=" Your Message"
+          ></textarea>
+          <button type="button" id="cls"><b>Submit</b></button>
+          <button type="button"><b>Cancle</b></button>
+        </form>
       </div>
-      <button type="button" id="cls">Close</button>
     </div>
     <script src="script.js"></script>
   </body>

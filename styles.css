@@ -133,20 +133,34 @@ div button {
 }
 
 .pop-content {
-  height: 300px;
-  width: 500px;
+  height: 400pxpx;
+  width: 50%;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
   position: relative;
   box-shadow: 5px 5px 20px -5px rgb(0, 0, 0, 0.75);
 }
+.pop-content form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  padding: 5px 0 5px 0;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 6px;
+}
 .dm {
   height: 40%;
 }
 #cls {
-  position: absolute;
-  margin-bottom: -18%;
+  /* margin-bottom: -16%; */
+  margin-top: 2%;
+  margin-left: 40%;
 }
 input {
   height: 50px;
@@ -200,10 +214,14 @@ input {
 }
 
 #logg {
-  margin-left: 35%;
+  margin-left: 42%;
+}
+form button:hover {
+  background-color: #bdbbbb;
+  color: #fff;
 }
 
-#lgp {
+.lgp {
   text-decoration: none;
   color: #000;
 }

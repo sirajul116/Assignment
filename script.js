@@ -1,7 +1,7 @@
 var a = document.querySelector('#contct');
 var b = document.querySelector('.popup');
 var c = document.querySelector('.close');
-var d = document.querySelector('#cls');
+var d = document.querySelector('#clss');
 var e = document.querySelector('.arrow');
 
 a.addEventListener('click', function () {

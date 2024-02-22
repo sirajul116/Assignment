@@ -6,6 +6,9 @@
 .main {
   display: grid;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   display: grid;
   width: 100%;
@@ -198,4 +201,9 @@ input {
 
 #logg {
   margin-left: 35%;
+}
+
+#lgp {
+  text-decoration: none;
+  color: #000;
 }

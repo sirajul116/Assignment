@@ -21,10 +21,10 @@ function Navbar() {
         </a>
       </div>
       <div className="space-x-3">
-        <button className="px-3 py-2 border rounded-md hover:text-orange-600">
+        <button className="px-3 py-2 border rounded-md hover:text-orange-600 shadow">
           Resume
         </button>
-        <button className="px-3 py-2 border rounded-md hover:text-orange-600">
+        <button className="px-3 py-2 border rounded-md hover:text-orange-600 shadow">
           Hire Me
         </button>
       </div>

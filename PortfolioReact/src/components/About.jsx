@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
   return (
-    <div className=" bg-slate-400 h-96 ">
-      <div className="flex justify-center">
+    <div className=" bg-slate-400 h-96 p-4">
+      <div className="flex justify-center ">
         <hr className="flex-grow border-t-2 border-black m-4"></hr>
         <h1 className="text-3xl">About Me</h1>
         <hr className="flex-grow border-t-2 border-black m-4"></hr>

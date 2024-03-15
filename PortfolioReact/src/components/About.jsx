@@ -1,8 +1,9 @@
 import React from 'react';
+import Quote from './Quote';
 
 function About() {
   return (
-    <div className=" bg-slate-400 h-96 p-4">
+    <div className=" bg-slate-400 h-auto p-4">
       <div className="flex justify-center ">
         <hr className="flex-grow border-t-2 border-black m-4"></hr>
         <h1 className="text-3xl">About Me</h1>
@@ -25,6 +26,7 @@ function About() {
           />
         </div>
       </div>
+      <Quote />
     </div>
   );
 }

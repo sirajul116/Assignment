@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
-
-let quotes = [];
-async function loadQuotes() {
-  const response = await fetch('https://type.fit/api/quotes');
-  quotes = await response.json();
-}
+import useFetch from '../Hooks/useFetch';
 
 const Quote = () => {
   const [quote, setQuote] = useState({
@@ -13,21 +8,21 @@ const Quote = () => {
   });
 
   const random = () => {
-    const select = quotes[Math.floor(Math.random() * quotes.length)];
+    const select = data[Math.floor(Math.random() * data.length)];
     setQuote(select);
   };
 
-  loadQuotes();
-
+  const { data, loading } = useFetch('https://type.fit/api/quotes');
   return (
     <>
       <div className=" h-40 ml-40 mr-40 mt-10 mb-2 p-4 bg-blue-400 border rounded-md">
+        <div className="grid place-items-center">
+          {loading && <h3>loading...</h3>}
+        </div>
         <div className="grid place-items-center p-2 text-2xl h-3/4">
           {quote.text}
         </div>
         <div>
-          <div></div>
-          <div></div>
           <div className="grid place-items-center border-t-2 text-white">
             - {quote.author.split(',')[0]}
           </div>
